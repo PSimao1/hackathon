@@ -1,11 +1,16 @@
+import React from 'react';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import Footer from '../../components/Footer/MyFooter';
+import '../../components/Footer/MYFooter.css';
+
 
 function Gwendo() {
 
 
     return (
-        <div className="main">
-               <h1>Gwendo</h1>
-               <CarouselSpecial />
+        <div className="Gwendo">
+               <Footer/>
         </div>
 
     )
