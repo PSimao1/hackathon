@@ -4,7 +4,10 @@ import Main from './pages/main/main.js'
 
 function App() {
   return (
-    Main()
+    Main() // Page Index
+
+    
+
   )
 }
 
