@@ -11,6 +11,7 @@ import BookDetails from './pages/bookDetails/BookDetails';
 import Simao from './pages/temp/Simao';
 import Sara from './pages/temp/Sara';
 import Gwendo from './pages/temp/Gwendo';
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
