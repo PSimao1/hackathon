@@ -8,6 +8,9 @@ import Main from './pages/main/main';
 import Cart from './pages/cart/cart';
 import Books from './pages/books/books';
 import BookDetails from './pages/bookDetails/BookDetails';
+import Simao from './pages/temp/Simao';
+import Sara from './pages/temp/Sara';
+import Gwendo from './pages/temp/Gwendo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +22,9 @@ root.render(
          <Route path="/books" element={<Books />} />
           <Route path="/cart" element={<Cart />} />
            <Route path="/bookdetails" element={<BookDetails />} />
+           <Route path="/simao" element={<Simao />} />
+           <Route path="/sara" element={<Sara />} />
+           <Route path="/gwendo" element={<Gwendo />} />
 
       </Routes>
     </Router>
