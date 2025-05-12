@@ -1,0 +1,89 @@
+.TopPromo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+
+}
+
+.discountleft {
+
+    display: flex;
+    width: 1212px;
+    height: 662px;
+    
+    
+
+}
+.discount {
+    background-color: #9C9C9C;
+    background-size: cover;
+    background-position: center;
+    width: 384px;
+    height: 662px;
+    border-radius: 24px;
+}
+
+.svp {
+
+    border-radius: 24px;
+}
+
+.bestseller {
+    height: 291px;
+    width: 206px;
+    background-color: #C4C4C4;
+    display: flex;
+    top:25%;
+    right: 25%;
+    border: solid 3px white;
+    border-radius: 14px;
+    transition: 250ms ease-in-out;
+    
+
+}
+
+.bestseller:hover {
+    box-shadow: 0px 25px 100px white;
+}
+
+.discountright {
+  position: relative;
+  display: flex;
+
+}
+
+.discountright .bestseller,
+.discountright .bestseller {
+  position: absolute;
+
+
+}
+
+.bestsellername {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.spe50, .backtoschool {
+    display: flex;
+    color:#9C9C9C;
+    font-weight: bold;
+    font-size: 40px;
+     position: absolute;
+  top: 50%; /* Ajuste la position verticale */
+  left: 50%; /* Ajuste la position horizontale */
+
+  color: white; /* Change la couleur pour qu'elle soit visible */
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 2; /* Assure que le texte est au-dessus de l'image */
+
+ 
+}
