@@ -1,0 +1,24 @@
+.bi {
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+
+#logo{
+    width: 64px;
+    left: 64px;
+
+}
+
+#map {
+    width: 367px;
+    left: 120px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#dropdown-basic {
+ color:blueviolet;
+}
+
+.text1 {
+    
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -11,6 +12,7 @@ import BookDetails from './pages/bookDetails/BookDetails';
 import Simao from './pages/temp/Simao';
 import Sara from './pages/temp/Sara';
 import Gwendo from './pages/temp/Gwendo';
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
