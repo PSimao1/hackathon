@@ -1,0 +1,58 @@
+#tag {
+    color: #6C5DD3;
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px;
+    background-color: #F0EEFF;
+    border-radius: 50px;
+
+}
+
+.card {
+    border-radius: 14px;
+
+}
+
+.slick-slide {
+
+    padding: 41px;
+}
+
+.btn-offers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6C5DD3;
+    border-color: #6C5DD3;
+    height: 60px;
+    width: 229px;
+    margin-right: 20px;
+}
+
+.prices {
+
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+
+.ogprice {
+
+    color: #AAAAAA;
+    font-size: 11px;
+    text-decoration-line: line-through;
+}
+
+.cart {
+    padding-right: 15px;
+    height: 25px;
+}
+
+.payment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}

@@ -1,4 +1,5 @@
-import CarouselSpecial from "../../components/carouselSpecial/carouselSpecial";
+import CarouselSpecial from "../../components/CarouselSpecial/CarouselSpecial";
+import TopPromo from "../../components/TopPromo/TopPromo";
 function Simao() {
 
 
@@ -6,6 +7,8 @@ function Simao() {
         <div className="main">
                <h1>Simao</h1>
                <CarouselSpecial />
+                <TopPromo />
+        
         </div>
 
     )
