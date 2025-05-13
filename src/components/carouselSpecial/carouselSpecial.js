@@ -16,12 +16,28 @@ export default function CarouselSpecial() {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 1008,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+}
 
-
-  };
 
 
   return (
+    
     <div className="container mt-4">
       <h2 className="text-center mb-4">Special Offers</h2>
       <Slider {...settings}>
