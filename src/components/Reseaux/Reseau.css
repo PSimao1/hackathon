@@ -1,0 +1,64 @@
+.metrics-container {
+  min-height: 100vh;
+  padding: 20px;
+  background: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.metrics-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+}
+
+.metric-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+}
+
+.metric-value {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.icon-container {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.metric-icon {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .metrics-row { gap: 30px; }
+  .metric-item { min-width: 150px; }
+  .metric-value { font-size: 24px; }
+}
+
+@media (max-width: 576px) {
+  .metrics-row {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+  .icon-container {
+    width: 50px;
+    height: 50px;
+  }
+  .metric-icon {
+    max-width: 25px;
+    max-height: 25px;
+  }
+}
