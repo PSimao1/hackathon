@@ -1,5 +1,9 @@
-import Btn from "../../components/Button/Btn";
+
+import ChoiceBook from "../../components/ChoiceBook/ChoiceBook";
+
 import Features from "../../components/Features/Features";
+import FlashSale from "../../components/FlashSale/FlashSale";
+
 import MyNavbar from "../../components/MyNavbar/MyNavbar";
 
 function Sara() {
@@ -12,7 +16,11 @@ function Sara() {
 <h1>sara</h1>
 <h1>sara</h1>
 
-            <Features />
+          <Features  
+/>
+<ChoiceBook />
+<FlashSale/>
+      
             
         </div>
     );
