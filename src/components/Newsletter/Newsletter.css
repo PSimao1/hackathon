@@ -1,0 +1,35 @@
+.newsletter-container {
+  position: relative;
+  width: 100%; 
+  height: auto; 
+  display: inline-block;
+}
+
+.newsletter-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.newsletter-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 100%; 
+
+}
+
+.newsletter-input {
+  margin-top: 10px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Subscribe form{
+  margin-top: 0px;
+  
+}
