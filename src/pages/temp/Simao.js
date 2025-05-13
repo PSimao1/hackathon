@@ -1,4 +1,4 @@
-import CarouselSpecial from "../../components/CarouselSpecial/CarouselSpecial";
+import CarouselSpecial from "../../components/CarouselSpecial/carouselSpecial";
 import TopPromo from "../../components/TopPromo/TopPromo";
 function Simao() {
 
