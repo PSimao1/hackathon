@@ -1,0 +1,48 @@
+.testimonials .slick-slide {
+  opacity: 0.5;
+  transform: scale(0.9);
+  transition: all 0.4s ease;
+  padding: 20px;
+  filter: blur(1px);
+}
+
+.testimonials .slick-center {
+  opacity: 1 !important;
+  transform: scale(1.05);
+  filter: none;
+}
+
+.cardopinions {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(144, 118, 255, 0.2);
+  min-height: 280px;
+  transition: all 0.3s ease;
+}
+
+.testimonials .slick-center .cardopinions {
+  box-shadow: 0px 10px 30px rgba(144, 118, 255, 0.4);
+}
+
+.opinion {
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.hobby {
+  font-size: 14px;
+  color: #999;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
