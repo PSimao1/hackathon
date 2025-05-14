@@ -10,6 +10,8 @@ import LetestNews from "../../components/LetestNews/LetestNews";
 import Reseau from "../../components/Reseaux/Reseau";
 import Newsletter from "../../components/Newsletter/Newsletter";
 import Footer from "../../components/Footer/MyFooter";
+import BookSale from "../../components/BookSale/BookSale";
+import FeaturedBooks from "../../components/FeaturedBooks/FeaturedBooks";
 import "./main.css";
 
 
@@ -24,11 +26,8 @@ function Main() {
         <ChoiceBook />
         <CarouselSpecial />
         <FlashSale/>
-
-        //Books on Sale
-
-        //Featured Books
-
+        <BookSale />
+        <FeaturedBooks />
         <Testimonials />
         <LetestNews />
         <Reseau />
