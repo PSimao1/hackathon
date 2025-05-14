@@ -29,6 +29,10 @@
     margin-right: 20px;
 }
 
+.btn-offers:hover {
+    background-color: #3d2f97;
+}
+
 .prices {
 
     font-weight: bold;

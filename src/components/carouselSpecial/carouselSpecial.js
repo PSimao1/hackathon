@@ -39,7 +39,6 @@ export default function CarouselSpecial() {
   return (
     
     <div className="container mt-4">
-      <h2 className="text-center mb-4">Special Offers</h2>
       <Slider {...settings}>
 
         <div class="card" style="width: 18rem;">
