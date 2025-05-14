@@ -1,5 +1,5 @@
 import BookDetails from "../bookDetails/BookDetails";
-import CarouselSpecial from "../../components/CarouselSpecial/CarouselSpecial";
+import CarouselSpecial from "../../components/CarouselSpecial/carouselSpecial";
 
 function Simao() {
 
