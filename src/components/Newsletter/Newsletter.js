@@ -9,15 +9,17 @@ function Newsletter() {
       <img src="/images/newsletter.png" alt="newsletter" className="newsletter-image" />
       <div className="newsletter-content" id='texteS'>
         <h1>Subscribe to our newsletter for newest books updates</h1>
-        <Form>
-          <Form.Control
-            type="email"
-            placeholder="Type your email here..."
-            className="newsletter-input"
-          />
-          <Button id="Subscribe" variant="light" className="subscribe-button">
-            Subscribe
-          </Button>
+        <Form className="newsletter-form">
+          <div className="input-group">
+            <Form.Control
+              type="email"
+              placeholder="Type your email here..."
+              className="newsletter-input"
+            />
+            <Button id="Subscribe" variant="light" className="subscribe-button">
+              Subscribe
+            </Button>
+          </div>
         </Form>
       </div>
     </div>
