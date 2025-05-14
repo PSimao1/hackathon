@@ -49,7 +49,7 @@ function FlashSale() {
                                 <img
                                     src="../../assets/carousel.jpg"
                                     alt="Card Image"
-                                    style={{ width: '100%', height: '12rem', objectFit: 'cover', borderRadius: '0.5rem' }}
+                                    style={{ width: '100%', height: '15rem', objectFit: 'cover', borderRadius: '0.5rem' }}
                                 />
                                 <div className=" text-center p-2 mt-2">
                                     <h6 className="t mb-1" style={{ color: '#6C5DD3' }}>Second</h6>
@@ -66,7 +66,7 @@ function FlashSale() {
                                 <img
                                     src="../../assets/carousel.jpg"
                                     alt="Card Image"
-                                    style={{ width: '100%', height: '12rem', objectFit: 'cover', borderRadius: '0.5rem' }}
+                                    style={{ width: '100%', height: '15rem', objectFit: 'cover', borderRadius: '0.5rem' }}
                                 />
                                 <div className=" text-center p-2 mt-2">
                                     <h6 className=" mb-1" style={{ color: '#6C5DD3' }}>Second</h6>
@@ -82,7 +82,7 @@ function FlashSale() {
                                 <img
                                     src="../../assets/carousel.jpg"
                                     alt="Card Image"
-                                    style={{ width: '100%', height: '12rem', objectFit: 'cover', borderRadius: '0.5rem' }}
+                                    style={{ width: '100%', height: '15rem', objectFit: 'cover', borderRadius: '0.5rem' }}
                                 />
                                 <div className=" text-center p-2 mt-2">
                                     <h6 className=" mb-1" style={{ color: '#6C5DD3' }}>Second</h6>
@@ -98,7 +98,7 @@ function FlashSale() {
                                 <img
                                     src="../../assets/carousel.jpg"
                                     alt="Card Image"
-                                    style={{ width: '100%', height: '12rem', objectFit: 'cover', borderRadius: '0.5rem' }}
+                                    style={{ width: '100%', height: '15rem', objectFit: 'cover', borderRadius: '0.5rem' }}
                                 />
                                 <div className=" text-center p-2 mt-2">
                                     <h6 className=" mb-1" style={{ color: '#6C5DD3' }}>Second</h6>
