@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+.cairo
+{
+    font-family: 'Cairo';
+}
+
+
+.allDir {
+    font-weight: 600;
+}
+
+.activePage {
+    color: gray;
+}
+
+.dir {
+    color: #6C5DD3;
+}
+
+.detailPage {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.bookCover {
+    width: 398px;
+    height: 572px;
+    background-color: #C4C4C4 ;
+    border-radius: 20px;
+    border-color: transparent;
+
+}
+
+.bookTitle {
+    font-family: 'Cairo';
+    font-weight: 900 !important;
+    font-size: 50px;
+}
+
+.rating {
+    padding-top: 25px;
+    display: flex;
+}
+
+.star {
+    
+    height:24px;
+    padding-right: 6px;
+}
+
+.note {
+    
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: -6px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1635px)  {
+    .bookInfo {
+        margin-left: 170px;
+    }
+    
+}
+
+.svgNotes {
+    height: 24px;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.stringNotes{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.synopsis {
+    width: 60vw;
+}
+
+.authorImg {
+    background-color: #C4C4C4;
+    width: 50px;
+    height: 50px;
+    border-radius: 14px;
+}
+
+.authorShip {
+    padding-top: 20px;
+    display: flex;
+}
+
+.socials {
+    width: 131px;
+    height: 38px;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 14px;
+    border-radius: 14px;
+}
+
+.facebook {
+    margin-left: 100px;
+    background-color: #1E33E5;
+}
+
+
+.facebook:hover {
+    background-color: #2a0caf;
+}
+
+
+.twitter {
+    background-color: #61C3E2;
+}
+
+.twitter:hover {
+    background-color: #4383be;
+}
+
+
+.whatsapp {
+    background-color: #53C258;
+}
+
+.whatsapp:hover {
+    background-color: #39a15c;
+}
+
+.email {
+    background-color: #AAAAAA;
+}
+
+
+.email:hover {
+    background-color: #8f8f8f;
+}
