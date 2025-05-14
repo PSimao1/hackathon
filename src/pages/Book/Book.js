@@ -7,7 +7,7 @@ const BOOKS_DATA = [
   {
     id: 1,
     title: "Thunder Stunt",
-    cover: "../images/Thunderer.webp",
+    cover: "../images/Thunder.webp",
     categories: ["ADVENTURE", "SCIENCE", "COMEDY"],
     price: 84.78,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
