@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./CarouselSpecial.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import './CarouselSpecial.css';
 
 
 export default function CarouselSpecial() {
@@ -45,7 +46,7 @@ export default function CarouselSpecial() {
           <img src="../../assets/carousel.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p id="tag">BIOGRAPHY</p><p id="tag">THRILLER</p><p id="tag">HORROR</p>
+            <div><p id="tag">BIOGRAPHY</p><p id="tag">THRILLER</p><p id="tag">HORROR</p></div>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
             <p>Kevin Smiley</p>
             <div class='payment'>
@@ -62,7 +63,7 @@ export default function CarouselSpecial() {
           <img src="../../assets/carousel.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p id="tag">BIOGRAPHY</p><p id="tag">THRILLER</p><p id="tag">HORROR</p>
+            <div><p id="tag">BIOGRAPHY</p><p id="tag">THRILLER</p><p id="tag">HORROR</p></div>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
             <p>David Here</p>
             <div class='payment'>
@@ -80,7 +81,7 @@ export default function CarouselSpecial() {
           <img src="../../assets/carousel.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p id="tag">BIOGRAPHY</p><p id="tag">THRILLER</p><p id="tag">HORROR</p>
+            <div><p id="tag">BIOGRAPHY</p><p id="tag">THRILLER</p><p id="tag">HORROR</p></div>
 
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
 
