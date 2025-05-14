@@ -15,19 +15,19 @@ function ChoiceBook() {
     slidesToScroll: 1,
     arrows: true,
     responsive: [
-            {
-                breakpoint: 992, // tablette
-                settings: {
-                    slidesToShow: 1,
-                }
-            },
-            {
-                breakpoint: 768, // mobile
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-          ]
+      {
+        breakpoint: 992, // tablette
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 768, // mobile
+        settings: {
+          slidesToShow: 2,
+        }
+      }
+    ]
 
   };
   return (
@@ -44,39 +44,102 @@ function ChoiceBook() {
             }}>
               <h4>Recomended for you</h4>
               <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look.</p>
-              <Slider {...settings}>
-                <div className="card" style={{ width: '18rem' }}>
-                  <img
-                    src="../../assets/carousel.jpg"
-                    alt="Card Image"
-                    style={{ width: '5.4rem', height: '10rem', objectFit: 'cover', borderRadius: '0.5rem' }}
-                  />
-                </div>
+               <Slider {...settings}>
+                    {/* Image 1 */}
+                    <div>
+                      <div className="px-1" style={{ width: "7rem" }}>
+                        {" "}
+                        {/* Très petit padding pour réduire l'espace */}
+                        <img
+                          src="/assets/carousel.jpg"
+                          alt="Slide Image 1"
+                          className="img-fluid rounded w-100"
+                          style={{
+                            height: "10rem",
+                            objectFit: "cover",
+                          }}
+                        />
+                      </div>
+                    </div>
 
-                <div className="card" style={{ width: '18rem' }}>
-                  <img
-                    src="../../assets/carousel.jpg"
-                    alt="Card Image"
-                    style={{ width: '5.4rem', height: '10rem', objectFit: 'cover', borderRadius: '0.5rem' }}
-                  />
-                </div>
+                    {/* Image 2 */}
+                    <div>
+                      <div className="px-1" style={{ width: "7rem" }}>
+                        <img
+                          src="/assets/carousel.jpg"
+                          alt="Slide Image 2"
+                          className="img-fluid rounded w-100"
+                          style={{
+                            height: "10rem",
+                            objectFit: "cover",
+                          }}
+                        />
+                      </div>
+                    </div>
 
-                <div className="card" style={{ width: '18rem' }}>
-                  <img
-                    src="../../assets/carousel.jpg"
-                    alt="Card Image"
-                    style={{ width: '5.4rem', height: '10rem', objectFit: 'cover', borderRadius: '0.5rem' }}
-                  />
-                </div>
+                    {/* Image 3 */}
+                    <div>
+                      <div className="px-1" style={{ width: "7rem" }}>
+                        <img
+                          src="/assets/carousel.jpg"
+                          alt="Slide Image 3"
+                          className="img-fluid rounded w-100"
+                          style={{
+                            height: "10rem",
+                            objectFit: "cover",
+                          }}
+                        />
+                      </div>
+                    </div>
 
-                <div className="card" style={{ width: '18rem' }}>
-                  <img
-                    src="../../assets/carousel.jpg"
-                    alt="Card Image"
-                    style={{ width: '5.4rem', height: '10rem', objectFit: 'cover', borderRadius: '0.5rem' }}
-                  />
-                </div>
-              </Slider>
+                    {/* Image 4 */}
+                    <div>
+                      <div className="px-1" style={{ width: "7rem" }}>
+                        <img
+                          src="/assets/carousel.jpg"
+                          alt="Slide Image 4"
+                          className="img-fluid rounded w-100"
+                          style={{
+                            height: "10rem",
+                            objectFit: "cover",
+                          }}
+                        />
+                      </div>
+                    </div>
+
+                    {/* Image 5 (pour le défilement) */}
+                    <div>
+                      <div className="px-1" style={{ width: "7rem" }}>
+                        <img
+                          src="/assets/carousel.jpg"
+                          alt="Slide Image 5"
+                          className="img-fluid rounded w-100"
+                          style={{
+                            height: "10rem",
+                            objectFit: "cover",
+                          }}
+                        />
+                      </div>
+                    </div>
+
+                    {/* Image 6 (pour le défilement) */}
+                    <div>
+                      <div className="px-1" style={{ width: "7rem" }}>
+                        <div className="px-1">
+                          <img
+                            src="/assets/carousel.jpg"
+                            alt="Slide Image 6"
+                            className="img-fluid rounded  w-100"
+                            style={{
+                              height: "10rem",
+                              width: "12rem",
+                              objectFit: "cover",
+                            }}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </Slider>
             </div>
           </div>
           <div class="col-md-6">
@@ -88,39 +151,108 @@ function ChoiceBook() {
             }}>
               <h4>Popular in 2025</h4>
               <p>Or, keep it light and add a border for some added definition to the boundaries of your content.</p>
-              <Slider {...settings}>
-                <div className="card" style={{ width: '18rem' }}>
-                  <img
-                    src="../../assets/carousel.jpg"
-                    alt="Card Image"
-                    style={{ width: '5.5rem', height: '10rem', objectFit: 'cover', borderRadius: '0.5rem' }}
-                  />
-                </div>
+              <div className="container-fluid p-0">
+                <div className="mx-n1">
+                  {" "}
+                  {/* Marge négative pour compenser le padding des cartes */}
+                  <Slider {...settings}>
+                    {/* Image 1 */}
+                    <div>
+                      <div className="px-1" style={{ width: "7rem" }}>
+                        {" "}
+                        {/* Très petit padding pour réduire l'espace */}
+                        <img
+                          src="/assets/carousel.jpg"
+                          alt="Slide Image 1"
+                          className="img-fluid rounded w-100"
+                          style={{
+                            height: "10rem",
+                            objectFit: "cover",
+                          }}
+                        />
+                      </div>
+                    </div>
 
-                <div className="card" style={{ width: '18rem' }}>
-                  <img
-                    src="../../assets/carousel.jpg"
-                    alt="Card Image"
-                    style={{ width: '5.5rem', height: '10rem', objectFit: 'cover', borderRadius: '0.5rem' }}
-                  />
-                </div>
+                    {/* Image 2 */}
+                    <div>
+                      <div className="px-1" style={{ width: "7rem" }}>
+                        <img
+                          src="/assets/carousel.jpg"
+                          alt="Slide Image 2"
+                          className="img-fluid rounded w-100"
+                          style={{
+                            height: "10rem",
+                            objectFit: "cover",
+                          }}
+                        />
+                      </div>
+                    </div>
 
-                <div className="card" style={{ width: '18rem' }}>
-                  <img
-                    src="../../assets/carousel.jpg"
-                    alt="Card Image"
-                    style={{ width: '5.5rem', height: '10rem', objectFit: 'cover', borderRadius: '0.5rem' }}
-                  />
-                </div>
+                    {/* Image 3 */}
+                    <div>
+                      <div className="px-1" style={{ width: "7rem" }}>
+                        <img
+                          src="/assets/carousel.jpg"
+                          alt="Slide Image 3"
+                          className="img-fluid rounded w-100"
+                          style={{
+                            height: "10rem",
+                            objectFit: "cover",
+                          }}
+                        />
+                      </div>
+                    </div>
 
-                <div className="card" style={{ width: '18rem' }}>
-                  <img
-                    src="../../assets/carousel.jpg"
-                    alt="Card Image"
-                    style={{ width: '5.5rem', height: '10rem', objectFit: 'cover', borderRadius: '0.5rem' }}
-                  />
+                    {/* Image 4 */}
+                    <div>
+                      <div className="px-1" style={{ width: "7rem" }}>
+                        <img
+                          src="/assets/carousel.jpg"
+                          alt="Slide Image 4"
+                          className="img-fluid rounded w-100"
+                          style={{
+                            height: "10rem",
+                            objectFit: "cover",
+                          }}
+                        />
+                      </div>
+                    </div>
+
+                    {/* Image 5 (pour le défilement) */}
+                    <div>
+                      <div className="px-1" style={{ width: "7rem" }}>
+                        <img
+                          src="/assets/carousel.jpg"
+                          alt="Slide Image 5"
+                          className="img-fluid rounded w-100"
+                          style={{
+                            height: "10rem",
+                            objectFit: "cover",
+                          }}
+                        />
+                      </div>
+                    </div>
+
+                    {/* Image 6 (pour le défilement) */}
+                    <div>
+                      <div className="px-1" style={{ width: "7rem" }}>
+                        <div className="px-1">
+                          <img
+                            src="/assets/carousel.jpg"
+                            alt="Slide Image 6"
+                            className="img-fluid rounded  w-100"
+                            style={{
+                              height: "10rem",
+                              width: "12rem",
+                              objectFit: "cover",
+                            }}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </Slider>
                 </div>
-              </Slider>
+              </div>
             </div>
           </div>
         </div>
