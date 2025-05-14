@@ -1,5 +1,7 @@
 
+import BookSale from "../../components/BookSale/BookSale";
 import ChoiceBook from "../../components/ChoiceBook/ChoiceBook";
+import FeaturedBooks from "../../components/FeaturedBooks/FeaturedBooks";
 
 import Features from "../../components/Features/Features";
 import FlashSale from "../../components/FlashSale/FlashSale";
@@ -20,6 +22,8 @@ function Sara() {
 />
 <ChoiceBook />
 <FlashSale/>
+<BookSale/>
+<FeaturedBooks/>
       
             
         </div>

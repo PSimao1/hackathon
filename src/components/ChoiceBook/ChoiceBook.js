@@ -14,6 +14,20 @@ function ChoiceBook() {
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: true,
+    responsive: [
+            {
+                breakpoint: 992, // tablette
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 768, // mobile
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+          ]
 
   };
   return (
