@@ -3,7 +3,7 @@ import TopPromo from "../../components/TopPromo/TopPromo";
 import Features from "../../components/Features/Features";
 import ChoiceBook from "../../components/ChoiceBook/ChoiceBook";
 import { Container } from "react-bootstrap";
-import CarouselSpecial from "../../components/CarouselSpecial/carouselSpecial";
+import CarouselSpecial from "../../components/carouselSpecial/carouselSpecial";
 import FlashSale from "../../components/FlashSale/FlashSale";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import LetestNews from "../../components/LetestNews/LetestNews";
