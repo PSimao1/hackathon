@@ -19,17 +19,27 @@
   text-align: center;
   color: white;
   width: 100%; 
+}
 
+.newsletter-form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-group {
+  display: flex;
+  max-width: 450px;
+  width: 100%;
 }
 
 .newsletter-input {
-  margin-top: 10px;
-  max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  flex: 1;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
-#Subscribe form{
-  margin-top: 0px;
-  
+.subscribe-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }

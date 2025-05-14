@@ -1,17 +1,81 @@
+/* Style général des cartes */
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Image de la carte */
+.news-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Image de l'auteur */
 .author-img {
   border-radius: 50%;
-  width: 54px;
-  height: 54px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
 }
 
-.news-img {
-  object-fit: cover;
-  border-radius: 5%;
+/* Corps de la carte */
+.card-body {
+  padding: 1.25rem;
 }
 
-.card-custom {
-  max-width: 300px;
-  margin: 1rem;
-  flex: 1 1 300px;
+/* Titre de la carte */
+.card-title {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #333;
 }
+
+/* Texte de la carte */
+.card-text {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Pied de carte */
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0,0,0,0.03);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .news-img {
+    height: 180px;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+  }
+}
+
+/* Pour l'en-tête */
+.header-section {
+  margin-bottom: 2rem;
+}
+
+.custom-purple-btn {
+  background-color: #6f42c1 !important;  /* Violet Bootstrap */
+  border-color: #6f42c1 !important;
+  color: white !important;
+  padding: 8px 20px;
+  font-weight: 500;
+}
+
+.custom-purple-btn:hover {
+  background-color: #5a32a8 !important;
+  border-color: #5a32a8 !important;
+}  
