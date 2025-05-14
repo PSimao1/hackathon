@@ -2,6 +2,7 @@ import React from 'react'
 
 function ForSale({title, text}) {
     return (
+        
         <div class="position-relative p-5 text-center text-muted bg-body ">
             
             <h1 class="text-body-emphasis">{title}</h1>
@@ -10,6 +11,7 @@ function ForSale({title, text}) {
             </p>
             
         </div>
+        
     )
 }
 

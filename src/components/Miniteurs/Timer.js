@@ -42,10 +42,10 @@ function Timer({ targetDate }) {
       <div className="d-flex justify-content-around">
         {['days', 'hours', 'minutes', 'seconds'].map((unit) => (
           <div key={unit} className="mx-2">
-            <h2 style={{ color: '#FF8C00' }}>
+            <h2 style={{ color: '#FF754C' }}>
               {String(timeLeft[unit]).padStart(2, '0')}
             </h2>
-            <small style={{ color: '#FF8C00' }} className="text-uppercase">
+            <small style={{ color: '#FF754C' }} className="text-uppercase">
               {frenchLabels[unit]}
             </small>
           </div>

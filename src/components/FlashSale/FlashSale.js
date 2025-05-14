@@ -10,25 +10,42 @@ function FlashSale() {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
+        slidesToShow:   4,
         slidesToScroll: 1,
         arrows: true,
+        responsive: [
+    {
+      breakpoint: 992, // tablette
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 768, // mobile
+      settings: {
+        slidesToShow: 1,
+      }
+    }
+  ]
 
     };
     return (
         <>
-            <ForSale
-                title="Special Offers"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
+            <div className="container mt-4">
+                <div className='row'>
+                    <div className='col'>
+                        <ForSale
+                            title="Special Offers"
+                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        />
 
-            <Timer targetDate="2025-05-20T23:59:59" />
+                        <Timer targetDate="2025-05-20T23:59:59" />
 
 
-            
+
                         <Slider {...settings}>
 
-                            <div className="card border-0 " style={{ width: '18rem' }}>
+                            <div className="card border-0 " >
                                 <img
                                     src="../../assets/carousel.jpg"
                                     alt="Card Image"
@@ -45,7 +62,7 @@ function FlashSale() {
                             </div>
 
 
-                            <div className="card border-0" style={{ width: '18rem' }}>
+                            <div className="card border-0" >
                                 <img
                                     src="../../assets/carousel.jpg"
                                     alt="Card Image"
@@ -61,7 +78,7 @@ function FlashSale() {
                                 </div>
                             </div>
 
-                            <div className="card border-0" style={{ width: '18rem' }}>
+                            <div className="card border-0">
                                 <img
                                     src="../../assets/carousel.jpg"
                                     alt="Card Image"
@@ -77,7 +94,7 @@ function FlashSale() {
                                 </div>
                             </div>
 
-                            <div className="card border-0" style={{ width: '18rem' }}>
+                            <div className="card border-0" >
                                 <img
                                     src="../../assets/carousel.jpg"
                                     alt="Card Image"
@@ -93,9 +110,9 @@ function FlashSale() {
                                 </div>
                             </div>
                         </Slider>
-
-                  
-
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
