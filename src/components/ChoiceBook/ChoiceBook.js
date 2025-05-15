@@ -45,11 +45,11 @@ function ChoiceBook() {
               <h4>Recomended for you</h4>
               <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look.</p>
                <Slider {...settings}>
-                    {/* Image 1 */}
+                    
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         {" "}
-                        {/* Très petit padding pour réduire l'espace */}
+                        
                         <img
                           src="/assets/carousel.jpg"
                           alt="Slide Image 1"
@@ -62,7 +62,7 @@ function ChoiceBook() {
                       </div>
                     </div>
 
-                    {/* Image 2 */}
+                    
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <img
@@ -77,7 +77,7 @@ function ChoiceBook() {
                       </div>
                     </div>
 
-                    {/* Image 3 */}
+                   
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <img
@@ -92,7 +92,7 @@ function ChoiceBook() {
                       </div>
                     </div>
 
-                    {/* Image 4 */}
+                    
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <img
@@ -107,7 +107,7 @@ function ChoiceBook() {
                       </div>
                     </div>
 
-                    {/* Image 5 (pour le défilement) */}
+                   
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <img
@@ -122,7 +122,7 @@ function ChoiceBook() {
                       </div>
                     </div>
 
-                    {/* Image 6 (pour le défilement) */}
+                    
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <div className="px-1">
@@ -144,7 +144,7 @@ function ChoiceBook() {
           </div>
           <div class="col-md-6">
             <div class="h-100 p-5 bg-body-tertiary border rounded-3" style={{
-              backgroundImage: "url('/image1.png')",
+              backgroundImage: "url('/image2.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -154,13 +154,13 @@ function ChoiceBook() {
               <div className="container-fluid p-0">
                 <div className="mx-n1">
                   {" "}
-                  {/* Marge négative pour compenser le padding des cartes */}
+                  
                   <Slider {...settings}>
-                    {/* Image 1 */}
+                    
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         {" "}
-                        {/* Très petit padding pour réduire l'espace */}
+                        
                         <img
                           src="/assets/carousel.jpg"
                           alt="Slide Image 1"
@@ -173,7 +173,7 @@ function ChoiceBook() {
                       </div>
                     </div>
 
-                    {/* Image 2 */}
+                   
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <img
@@ -188,7 +188,7 @@ function ChoiceBook() {
                       </div>
                     </div>
 
-                    {/* Image 3 */}
+                   
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <img
@@ -203,7 +203,7 @@ function ChoiceBook() {
                       </div>
                     </div>
 
-                    {/* Image 4 */}
+                  
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <img
@@ -218,7 +218,7 @@ function ChoiceBook() {
                       </div>
                     </div>
 
-                    {/* Image 5 (pour le défilement) */}
+                   
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <img
@@ -233,7 +233,7 @@ function ChoiceBook() {
                       </div>
                     </div>
 
-                    {/* Image 6 (pour le défilement) */}
+                  
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <div className="px-1">
