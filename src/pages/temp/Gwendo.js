@@ -9,6 +9,7 @@ import CheckoutPage from '../../components/Paiement/CheckoutPage';
 import '../../components/Paiement/checkout.css';
 import LetestNews from '../../components/LetestNews/LetestNews';
 import Book from '../../components/Book/Book';
+import FeaturesSection from '../../components/Feature/FeatureSection';
 
 
 
@@ -23,6 +24,7 @@ function Gwendo() {
             <CheckoutPage/>
             <LetestNews/>
             <Book/>
+            <FeaturesSection/>
               
         </div>
     )
