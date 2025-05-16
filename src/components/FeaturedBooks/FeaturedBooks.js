@@ -26,7 +26,7 @@ function FeaturedBooks() {
         
             <div className="mb-3 mb-md-0 mx-auto mx-md-0">
               <img
-                src="/assets/carousel.jpg"
+                src="/assets/image11.png"
                 alt="Book cover"
                 className="rounded"
                 style={{
@@ -122,7 +122,7 @@ function FeaturedBooks() {
     <div className="row mt-3">
         <div className="col-12 col-sm-4 col-md-4 mt-4">
             <img
-                src="/assets/carousel.jpg"
+                src="/assets/image12.png"
                 alt="Book 1"
                 className="img-fluid"
                 style={{
@@ -134,7 +134,7 @@ function FeaturedBooks() {
         </div>
         <div className="col-12 col-sm-4 col-md-4 mt-4">
             <img
-                src="/assets/carousel.jpg"
+                src="/assets/image13.png"
                 alt="Book 2"
                 className="img-fluid"
                 style={{
@@ -146,7 +146,7 @@ function FeaturedBooks() {
         </div>
         <div className="col-12 col-sm-4 col-md-4 mt-4">
             <img
-                src="/assets/carousel.jpg"
+                src="/assets/image9.png"
                 alt="Book 3"
                 className="img-fluid"
                 style={{
@@ -162,7 +162,7 @@ function FeaturedBooks() {
     <div className="row mt-4">
         <div className="col-12 col-sm-4 col-md-4 mb-4">
             <img
-                src="/assets/carousel.jpg"
+                src="/assets/image4.png"
                 alt="Book 4"
                 className="img-fluid"
                 style={{
@@ -174,7 +174,7 @@ function FeaturedBooks() {
         </div>
         <div className="col-12 col-sm-4 col-md-4 mb-4">
             <img
-                src="/assets/carousel.jpg"
+                src="/assets/image7.png"
                 alt="Book 5"
                 className="img-fluid"
                 style={{
@@ -186,7 +186,7 @@ function FeaturedBooks() {
         </div>
         <div className="col-12 col-sm-4 col-md-4 mb-4">
             <img
-                src="/assets/carousel.jpg"
+                src="/assets/image9.png"
                 alt="Book 6"
                 className="img-fluid"
                 style={{

@@ -47,7 +47,7 @@ function BookSale() {
                                 </div>
 
                                 <img
-                                    src="../../assets/carousel.jpg"
+                                    src="../../assets/image12.png"
                                     alt="Card Image"
                                     style={{
                                         width: '100%',
@@ -95,7 +95,7 @@ function BookSale() {
                                 </div>
 
                                 <img
-                                    src="../../assets/carousel.jpg"
+                                    src="../../assets/image13.png"
                                     alt="Card Image"
                                     style={{
                                         width: '100%',
@@ -143,7 +143,7 @@ function BookSale() {
                                 </div>
 
                                 <img
-                                    src="../../assets/carousel.jpg"
+                                    src="../../assets/image11.png"
                                     alt="Card Image"
                                     style={{
                                         width: '100%',
@@ -191,7 +191,7 @@ function BookSale() {
                                 </div>
 
                                 <img
-                                    src="../../assets/carousel.jpg"
+                                    src="../../assets/image4.png"
                                     alt="Card Image"
                                     style={{
                                         width: '100%',
@@ -238,7 +238,7 @@ function BookSale() {
                                 </div>
 
                                 <img
-                                    src="../../assets/carousel.jpg"
+                                    src="../../assets/image10.png"
                                     alt="Card Image"
                                     style={{
                                         width: '100%',
