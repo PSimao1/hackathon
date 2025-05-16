@@ -1,6 +1,8 @@
 
 import BookSale from "../../components/BookSale/BookSale";
 import ChoiceBook from "../../components/ChoiceBook/ChoiceBook";
+import CustomerReview from "../../components/CustomerReview/CustomerReview";
+import DetailsProduct from "../../components/DetailsProduct/DetailsProduct";
 import FeaturedBooks from "../../components/FeaturedBooks/FeaturedBooks";
 
 import Features from "../../components/Features/Features";
@@ -24,6 +26,8 @@ function Sara() {
 <FlashSale/>
 <BookSale/>
 <FeaturedBooks/>
+<DetailsProduct/>
+<CustomerReview/>
       
             
         </div>

@@ -5,7 +5,7 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 function FeaturedBooks() {
     return (
         <div className="container-fluid mt-5" style={{
-            backgroundImage: "url('/image1.png')",
+            backgroundImage: "url('/image3.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -23,7 +23,7 @@ function FeaturedBooks() {
             className="d-flex flex-column flex-md-row align-items-center p-2 p-md-3 shadow rounded w-100"
             style={{ backgroundColor: "#f8f9fa" }}
           >
-            {/* Image responsive */}
+        
             <div className="mb-3 mb-md-0 mx-auto mx-md-0">
               <img
                 src="/assets/carousel.jpg"
@@ -39,7 +39,7 @@ function FeaturedBooks() {
               />
             </div>
 
-            {/* Texte responsive */}
+            
             <div className="card border-0 bg-transparent w-100">
               <div className="card-body">
                 <h5 className="card-title text-center text-md-start">
