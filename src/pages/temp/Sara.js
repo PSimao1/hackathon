@@ -1,4 +1,6 @@
 
+
+
 import BookSale from "../../components/BookSale/BookSale";
 import ChoiceBook from "../../components/ChoiceBook/ChoiceBook";
 import CustomerReview from "../../components/CustomerReview/CustomerReview";
@@ -9,6 +11,7 @@ import Features from "../../components/Features/Features";
 import FlashSale from "../../components/FlashSale/FlashSale";
 
 import MyNavbar from "../../components/MyNavbar/MyNavbar";
+import BookDetails from "../bookDetails/BookDetails";
 
 function Sara() {
     return (
@@ -28,6 +31,7 @@ function Sara() {
 <FeaturedBooks/>
 <DetailsProduct/>
 <CustomerReview/>
+<BookDetails/>
       
             
         </div>
