@@ -137,10 +137,10 @@
 
 .book-categories .badge {
   font-weight: 500;
-  font-size: 0.7rem;
+  font-size: 14px;
   padding: 0.35em 0.65em;
-  background-color: #e9ecef;
-  color: #495057;
+  background-color: transparent !important;
+  color: #6C5DD3;
   margin-right: 0.3rem;
   margin-bottom: 0.3rem;
 }
