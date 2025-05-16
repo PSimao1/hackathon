@@ -80,38 +80,45 @@
 }
 
 .facebook {
-  background-color: #1e33e5;
+  background-color: #1e33e5 !important;
+  border-color: transparent !important;
 }
 
 .facebook:hover {
-  background-color: #2a0caf;
+  background-color: #2a0caf !important;
+  border-color: transparent !important;
 }
 
 .twitter {
-  background-color: #61c3e2;
+  background-color: #61c3e2 !important;
+  border-color: transparent !important;
 }
 
 .twitter:hover {
-  background-color: #4383be;
+  background-color: #4383be !important;
+  border-color: transparent !important;
 }
 
 .whatsapp {
-  background-color: #53c258;
+  background-color: #53c258 !important;
+  border-color: transparent !important;
 }
 
 .whatsapp:hover {
-  background-color: #39a15c;
+  background-color: #39a15c !important;
+  border-color: transparent !important;
 }
 
 .email {
-  background-color: #aaaaaa;
+  background-color: #aaaaaa !important;
+  border-color: transparent !important;
 }
 
 .email:hover {
-  background-color: #8f8f8f;
+  background-color: #8f8f8f !important;
+  border-color: transparent !important;
 }
 
-/* Informations auteur réduites */
 .authorInfo-small,
 .publisherInfo-small,
 .yearInfo-small {
@@ -128,9 +135,9 @@
 
 
 .freeShipping-small {
-  color: #6c5dd3;
-  background-color: #ebe8fe;
-  border-color: transparent;
+  color: #6c5dd3 !important;
+  background-color: #ebe8fe !important;
+  border-color: transparent !important;
   width: 150px;
   border-radius: 14px;
   font-size: 14px;
@@ -138,9 +145,9 @@
 }
 
 .inStock-small {
-  color: #3eb760;
-  background-color: #ddf5e4;
-  border-color: transparent;
+  color: #3eb760 !important;
+  background-color: #ddf5e4 !important;
+  border-color: transparent !important;
   width: 120px;
   border-radius: 14px;
   font-size: 14px;
@@ -208,30 +215,26 @@
 }
 
 .addToCart {
-  background-color: #6c5dd3;
+  background-color: #6c5dd3 ;
   width: 229px;
   height: 60px;
   border-radius: 14px;
   border: none;
 }
 
+.addToCart:hover {
+  background-color: #493ba3 !important;
+}
+
 .Like {
-  background-color: white;
+  background-color: white !important;
   width: 60px;
   height: 60px;
   border-radius: 14px;
-  border: 1px solid #eee;
+  border: 1px solid #eee !important;
 }
 
 
 .book-content {
   margin-top: 20px;
 }
-
-
-
-
-
-
-
-

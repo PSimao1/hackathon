@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import './BookSale.css'
 
 
 function BookSale() {
@@ -277,6 +278,9 @@ function BookSale() {
                     </div>
                 </div>
             </div>
+<div className='brand'>
+            <img className="img-fluid" src="../../assets/brands.jpg" alt="brand" />
+     </div>
         </>
     )
 }
