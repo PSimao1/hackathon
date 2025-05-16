@@ -8,8 +8,8 @@ import Newletter from '../../components/Newsletter/Newsletter';
 import CheckoutPage from '../../components/Paiement/CheckoutPage';
 import '../../components/Paiement/checkout.css';
 import LetestNews from '../../components/LetestNews/LetestNews';
-import Book from '../../pages/Book/Book';
-import '../Book/Book.css';
+import Book from '../../components/Book/Book';
+
 
 
 function Gwendo() {
