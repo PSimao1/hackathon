@@ -9,7 +9,6 @@ const BOOKS_DATA = [
     title: "Thunder Stunt",
     cover: "../images/Thunder.webp",
     categories: ["ADVENTURE", "SCIENCE", "COMEDY"],
-    price: 84.78,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     author: "Kevin Smiley",
     publisher: "Printarea Studios",
@@ -19,7 +18,187 @@ const BOOKS_DATA = [
     isWishlisted: false,
     inCart: false
   },
-  // ... autres livres
+  {
+    id: 2,
+    title: "ALL GOOD NEWS",
+    cover: "../images/Thunder.webp",
+    categories: ["Biography"],
+    price: 34,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    author: "Kevin Smiley",
+    publisher: "Printarea Studios",
+    year: 2019,
+    rating: 4.0,
+    reviews: 125,
+    isWishlisted: false,
+    inCart: false
+  },
+  {
+    id: 3,
+    title: "Terrible Madness",
+    cover: "../images/TM.webp",
+    categories: ["ADVENTURE"],
+    price: 40,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    author: "Kevin Smiley",
+    publisher: "Printarea Studios",
+    year: 2019,
+    rating: 4.0,
+    reviews: 125,
+    isWishlisted: false,
+    inCart: false
+  },
+  {
+    id: 4,
+    title: "The Missadventure..",
+    cover: "../images/M.webp",
+    categories: ["Adventure", "science", "Comedy"],
+    price: 70,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    author: "Kevin Smiley",
+    publisher: "Printarea Studios",
+    year: 2019,
+    rating: 4.0,
+    reviews: 125,
+    isWishlisted: false,
+    inCart: false
+  },
+  {
+    id: 5,
+    title: "A Heavy Lift",
+    cover: "../images/Ah.webp",
+    categories: ["Horror","Drama"],
+    price: 50,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    author: "Kevin Smiley",
+    publisher: "Printarea Studios",
+    year: 2019,
+    rating: 4.0,
+    reviews: 125,
+    isWishlisted: false,
+    inCart: false
+  },
+  {
+    id: 6,
+    title: "Thunder Stunt",
+    cover: "../images/Thunder.webp",
+    categories: ["Adventure", "Science", "Comedy"],
+    price: 154,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    author: "Kevin Smiley",
+    publisher: "Printarea Studios",
+    year: 2019,
+    rating: 4.0,
+    reviews: 125,
+    isWishlisted: false,
+    inCart: false
+  },
+  {
+    id: 7,
+    title: "Battler Drive",
+    cover: "../images/bd.webp",
+    categories: ["Racing", "Drama"],
+    price: 15,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    author: "Kevin Smiley",
+    publisher: "Printarea Studios",
+    year: 2019,
+    rating: 4.0,
+    reviews: 125,
+    isWishlisted: false,
+    inCart: false
+  },
+  {
+    id: 8,
+    title: "Take Out Tango",
+    cover: "../images/tot.webp",
+    categories: ["Sprots", "Drama",],
+    price: 20,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    author: "Kevin Smiley",
+    publisher: "Printarea Studios",
+    year: 2019,
+    rating: 4.0,
+    reviews: 125,
+    isWishlisted: false,
+    inCart: false
+  },
+  {
+    id: 9,
+    title: "Pushing Clouds",
+    cover: "../images/pc.webp",
+    categories: ["Drama", "Comedy"],
+    price: 30,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    author: "Kevin Smiley",
+    publisher: "Printarea Studios",
+    year: 2019,
+    rating: 4.0,
+    reviews: 125,
+    isWishlisted: false,
+    inCart: false
+  },
+  {
+    id: 10,
+    title: "SECONDS",
+    cover: "../images/s.webp",
+    categories: ["Thriller"],
+    price: 80,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    author: "Kevin Smiley",
+    publisher: "Printarea Studios",
+    year: 2019,
+    rating: 4.0,
+    reviews: 125,
+    isWishlisted: false,
+    inCart: false
+  },
+  {
+    id: 11,
+    title: "REWORK",
+    cover: "../images/rr.webp",
+    categories: ["Drama","Comedy"],
+    price: 58,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    author: "Kevin Smiley",
+    publisher: "Printarea Studios",
+    year: 2019,
+    rating: 4.0,
+    reviews: 125,
+    isWishlisted: false,
+    inCart: false
+  },
+  {
+    id: 12,
+    title: "Such a Fun Age",
+    cover: "../images/sfa.webp",
+    categories: ["Thriller"],
+    price: 60,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    author: "Kevin Smiley",
+    publisher: "Printarea Studios",
+    year: 2019,
+    rating: 4.0,
+    reviews: 125,
+    isWishlisted: false,
+    inCart: false
+  },
+  {
+    id: 13,
+    title: "Emily and The Back..",
+    cover: "../images/etb.webp",
+    categories: ["Adventure", "Science", "Comedy"],
+    price: 20,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    author: "Kevin Smiley",
+    publisher: "Printarea Studios",
+    year: 2019,
+    rating: 4.0,
+    reviews: 125,
+    isWishlisted: false,
+    inCart: false
+  },
+
 ];
 
 const BESTSELLERS = [
@@ -29,7 +208,26 @@ const BESTSELLERS = [
 
 const CATEGORIES = [
   { id: 1, name: "Action", checked: true },
-  { id: 2, name: "Adventure", checked: false }
+  { id: 2, name: "Adventure", checked: false },
+  { id: 3, name: "Animation", checked: false },
+  { id: 4, name: "Biography", checked: false },
+  { id: 5, name: "Comedy", checked: false },
+  { id: 6, name: "Crime", checked: false },
+  { id: 7, name: "Documentary", checked: false },
+  { id: 8, name: "Fantasy", checked: false },
+  { id: 9, name: "History", checked: false },
+  { id: 10, name: "Horror", checked: false },
+  { id: 11, name: "Mystery", checked: false },
+  { id: 12, name: "Romance", checked: false },
+  { id: 13, name: "Sci-fi", checked: false },
+  { id: 14, name: "Sport", checked: false },
+  { id: 15, name: "Drama", checked: false },
+  { id: 16, name: "Racing", checked: false },
+  { id: 16, name: "Sprots", checked: false },
+  { id: 16, name: "Thriller", checked: false }
+
+
+
 ];
 
 const Rating = React.memo(({ value, reviews }) => {
@@ -65,23 +263,14 @@ const PriceSlider = React.memo(({ value, onChange }) => {
         <input
           type="range"
           min={0}
-          max={200}
+          max={100}
           value={value[0]}
           onChange={(e) => handleChange(0, e.target.value)}
           className="slider slider-1"
         />
-        <input
-          type="range"
-          min={0}
-          max={200}
-          value={value[1]}
-          onChange={(e) => handleChange(1, e.target.value)}
-          className="slider slider-2"
-        />
       </div>
       <div className="price-values">
         <span>${value[0]}</span>
-        <span>${value[1]}</span>
       </div>
     </div>
   );
@@ -124,7 +313,7 @@ const BookCard = React.memo(({ book, viewMode, toggleWishlist, toggleCart }) => 
               <span className="current-price">${book.price.toFixed(2)}</span>
             </div>
             <Button 
-              variant={book.inCart ? 'success' : 'primary'} 
+              variant="primary" 
               className="add-to-cart-btn"
               onClick={() => toggleCart(book.id)}
             >
@@ -168,7 +357,7 @@ const BookCard = React.memo(({ book, viewMode, toggleWishlist, toggleCart }) => 
                     <span className="current-price">${book.price.toFixed(2)}</span>
                   </div>
                   <Button 
-                    variant={book.inCart ? 'success' : 'primary'} 
+                    variant="primary" 
                     className="add-to-cart-btn"
                     onClick={() => toggleCart(book.id)}
                   >
@@ -237,14 +426,14 @@ const Book = () => {
       });
   }, [books, priceRange, sortOption]);
 
-  const itemsPerPage = 4;
+  const itemsPerPage = 12;
   const totalPages = Math.ceil(filteredBooks.length / itemsPerPage);
   const paginatedBooks = useMemo(() => {
     const startIndex = (currentPage - 1) * itemsPerPage;
     return filteredBooks.slice(startIndex, startIndex + itemsPerPage);
   }, [filteredBooks, currentPage, itemsPerPage]);
 
-  return (
+   return (
     <Container fluid className="book-page">
       <Breadcrumb>
         <Breadcrumb.Item href="#">
@@ -362,7 +551,6 @@ const Book = () => {
               </InputGroup>
             </div>
           </div>
-
           {loading ? (
             <div className="text-center py-5">
               <Spinner animation="border" role="status">
