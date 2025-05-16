@@ -1,9 +1,20 @@
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './BookDetails.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar, faCommentDots, faThumbsUp, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faStar, faCommentDots, faThumbsUp, faEnvelope, faShield, faBolt, faCartPlus, faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
+function increment() {
+    let input = document.getElementById("quantity");
+    input.value = parseInt(input.value) + 1;
+}
+
+function decrement() {
+    let input = document.getElementById("quantity");
+    if (parseInt(input.value) > 0) { // Empêcher les valeurs négatives
+        input.value = parseInt(input.value) - 1;
+    }
+}
 
 export default function BookDetails() {
 
@@ -16,10 +27,10 @@ export default function BookDetails() {
                     <Col xs={12} md={12} lg={3}>
                         <img src="/assets/bookPlaceholder.jpg" alt="livre1" className="bookCover" />
                     </Col>
-                    <Col xs={1} md={12} lg={9} >
+                    <Col xs={1} md={12} lg={9} sm={12}>
                         <div className='bookInfo'>
                             <h1 className="bookTitle">All Good News</h1>
-                            <div className="rating">
+                            <div className="rating" xs={1} md={12} lg={9} sm={12}>
                                 <FontAwesomeIcon icon={faStar} style={{ color: '#FF754C' }} className="star" />
                                 <FontAwesomeIcon icon={faStar} style={{ color: '#FF754C' }} className="star" />
                                 <FontAwesomeIcon icon={faStar} style={{ color: '#FF754C' }} className="star" />
@@ -47,11 +58,43 @@ export default function BookDetails() {
                         </div>
                         <div className='authorShip'>
                             <img src='/assets/stockPortrait.jpg' className='authorImg' />
-                            <div className='authorInfo'>
-                                <p>Written by</p>
-                                <p>Kevin Smiley</p>
+                            <div className='info'>
+                                <div className='authorInfo'>
+                                    <p>Written by</p>
+                                    <p className='bold'>Kevin Smiley</p>
+                                </div>
+                                <div className='publisherInfo'>
+                                    <p>Publisher</p>
+                                    <p className='bold'>Printarea Studios</p>
+                                </div>
+                                <div className='yearInfo'>
+                                    <p>Year</p>
+                                    <p className='bold'>2019</p>
+                                </div>
                             </div>
+                            <Button className='freeShipping'><FontAwesomeIcon icon={faBolt} style={{ color: '#6C5DD3' }} /> FREE SHIPPING</Button>
+
+                            <Button className='inStock'><FontAwesomeIcon icon={faShield} style={{ color: '#3EB760' }} />IN STOCK</Button>
                         </div>
+                        <hr className='bar' />
+                        <div className='price'>
+                            <p className='currentPrice'>$15,63</p>
+                            <p className='oldPrice'>$16,99</p>
+                            <p className='discountedPrice'>2%</p>
+
+                            <div class="quantity-selector">
+                                <button class="quantity-btn">−</button>
+                                <span class="quantity-number">1</span>
+                                <button class="quantity-btn">+</button>
+                            </div>
+
+                            <Button className='addToCart'><FontAwesomeIcon icon={faCartPlus} style={{ color: 'white' }} />Add to Cart</Button>
+                            <Button className="Like"><FontAwesomeIcon icon={faHeart} style={{ color: '#6C5DD3' }} /></Button>
+                        </div>
+
+
+
+
                     </Col>
                 </Row>
 
