@@ -61,7 +61,7 @@ function DetailsProduct() {
 
 
                     <div className="d-flex mb-4" >
-                        <div className="me-3" style={{ width: '60px', height: '90px', backgroundImage: "url('/image2.png')" }}></div>
+                        <div className="me-3" style={{ width: '60px', height: '90px', backgroundImage: "url('/assets/image9.png')" }}></div>
                         <div>
                             <h6 className="mb-1">Terrible Madness</h6>
                             <small className="text-uppercase" style={{ color: "#6C5DD3" }}>Thriller, Drama, Horror</small>
@@ -91,7 +91,7 @@ function DetailsProduct() {
                         </div>
                     </div>
                     <div className="d-flex mb-4" >
-                        <div className="me-3" style={{ width: '60px', height: '90px', backgroundImage: "url('/image2.png')" }}></div>
+                        <div className="me-3" style={{ width: '60px', height: '90px', backgroundImage: "url('/assets/image10.png')" }}></div>
                         <div>
                             <h6 className="mb-1">Terrible Madness</h6>
                             <small className="text-uppercase" style={{ color: "#6C5DD3" }}>Thriller, Drama, Horror</small>
@@ -122,7 +122,7 @@ function DetailsProduct() {
                         </div>
                     </div>
                     <div className="d-flex mb-4" >
-                        <div className="me-3" style={{ width: '60px', height: '90px', backgroundImage: "url('/image2.png')" }}></div>
+                        <div className="me-3" style={{ width: '60px', height: '90px', backgroundImage: "url('/assets/image5.png')" }}></div>
                         <div>
                             <h6 className="mb-1">Terrible Madness</h6>
                             <small className="text-uppercase" style={{ color: "#6C5DD3" }}>Thriller, Drama, Horror</small>

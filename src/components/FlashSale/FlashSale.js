@@ -47,7 +47,7 @@ function FlashSale() {
 
                             <div className="card border-0 " >
                                 <img
-                                    src="../../assets/carousel.jpg"
+                                    src="../../assets/image6.png"
                                     alt="Card Image"
                                     style={{ width: '100%', height: '15rem', objectFit: 'cover', borderRadius: '0.5rem' }}
                                 />
@@ -64,7 +64,7 @@ function FlashSale() {
 
                             <div className="card border-0" >
                                 <img
-                                    src="../../assets/carousel.jpg"
+                                    src="../../assets/image7.png"
                                     alt="Card Image"
                                     style={{ width: '100%', height: '15rem', objectFit: 'cover', borderRadius: '0.5rem' }}
                                 />
@@ -80,7 +80,7 @@ function FlashSale() {
 
                             <div className="card border-0">
                                 <img
-                                    src="../../assets/carousel.jpg"
+                                    src="../../assets/image8.png"
                                     alt="Card Image"
                                     style={{ width: '100%', height: '15rem', objectFit: 'cover', borderRadius: '0.5rem' }}
                                 />
@@ -96,7 +96,7 @@ function FlashSale() {
 
                             <div className="card border-0" >
                                 <img
-                                    src="../../assets/carousel.jpg"
+                                    src="../../assets/image9.png"
                                     alt="Card Image"
                                     style={{ width: '100%', height: '15rem', objectFit: 'cover', borderRadius: '0.5rem' }}
                                 />

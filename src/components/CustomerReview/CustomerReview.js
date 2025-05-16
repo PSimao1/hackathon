@@ -11,7 +11,7 @@ function CustomerReview() {
                     </div>
                     <div className='row'>
 
-                        {/* Left Column – Rating Info */}
+                        
                         <div className='col-12 col-md-4'>
                             <div className="ms-5">
                                 <h5 className='fw-bold pt-3'>Rating information</h5>
@@ -22,11 +22,11 @@ function CustomerReview() {
                             </div>
                         </div>
 
-                        {/* Middle Column – Star Summary */}
+                       
                         <div className='col-12 col-md-4'>
                             <div className='ms-5'>
 
-                                {/* Star 5 */}
+                             
                                 <div className="d-flex align-items-center mb-2">
                                     <span className="me-2">
                                         <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +40,7 @@ function CustomerReview() {
                                     <span className="ms-2 text-muted">70%</span>
                                 </div>
 
-                                {/* Star 4 */}
+                              
                                 <div className="d-flex align-items-center mb-2">
                                     <span className="me-2">
                                         <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,7 +54,7 @@ function CustomerReview() {
                                     <span className="ms-2 text-muted">20%</span>
                                 </div>
 
-                                {/* Star 3 */}
+                                
                                 <div className="d-flex align-items-center mb-2">
                                     <span className="me-2">
                                         <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,7 +68,7 @@ function CustomerReview() {
                                     <span className="ms-2 text-muted">5%</span>
                                 </div>
 
-                                {/* Star 2 */}
+                            
                                 <div className="d-flex align-items-center mb-2">
                                     <span className="me-2">
                                         <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,7 +82,7 @@ function CustomerReview() {
                                     <span className="ms-2 text-muted">3%</span>
                                 </div>
 
-                                {/* Star 1 */}
+                               
                                 <div className="d-flex align-items-center mb-2">
                                     <span className="me-2">
                                         <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -129,7 +129,7 @@ function CustomerReview() {
 
                                 <div>
                                     <img
-                                        src="/image1.png"
+                                        src="/assets/stockPortrait.jpg"
                                         alt="Avatar"
                                         className="rounded me-3"
                                         width="50"
@@ -165,7 +165,7 @@ function CustomerReview() {
 
                                 <div>
                                     <img
-                                        src="/image1.png"
+                                        src="/assets/stockPortrait.jpg"
                                         alt="Avatar"
                                         className="rounded me-3"
                                         width="50"
@@ -202,7 +202,7 @@ function CustomerReview() {
 
                                 <div>
                                     <img
-                                        src="/image1.png"
+                                        src="/assets/stockPortrait.jpg"
                                         alt="Avatar"
                                         className="rounded me-3"
                                         width="50"
@@ -239,7 +239,7 @@ function CustomerReview() {
 
                                 <div>
                                     <img
-                                        src="/image1.png"
+                                        src="/assets/stockPortrait.jpg"
                                         alt="Avatar"
                                         className="rounded me-3"
                                         width="50"
@@ -247,7 +247,7 @@ function CustomerReview() {
                                     />
                                 </div>
 
-                                {/* Floated Text next to image */}
+                              
                                 <div>
                                     <h6 className="mb-0">David Here</h6>
                                     <small className="text-muted">Jan 4th, 2020</small>
@@ -257,7 +257,7 @@ function CustomerReview() {
                                 </div>
                             </div>
 
-                            {/* Right side: rating */}
+                       
                             <div className="text-end">
                                 <h5 className="fw-bold text-center " style={{ color: "#FF754C" }} >2.0</h5>
                                 <div className="d-flex flex-wrap gap-1" >
@@ -278,7 +278,7 @@ function CustomerReview() {
 
 
                     <div className="d-flex mb-4" >
-                        <div className="me-3" style={{ width: '60px', height: '90px', backgroundImage: "url('/image2.png')" }}></div>
+                        <div className="me-3" style={{ width: '60px', height: '90px', backgroundImage: "url('/assets/image8.png')" }}></div>
                         <div>
                             <h6 className="mb-1">Terrible Madness</h6>
                             <small className="text-uppercase" style={{ color: "#6C5DD3" }}>Thriller, Drama, Horror</small>
@@ -308,7 +308,7 @@ function CustomerReview() {
                         </div>
                     </div>
                     <div className="d-flex mb-4" >
-                        <div className="me-3" style={{ width: '60px', height: '90px', backgroundImage: "url('/image2.png')" }}></div>
+                        <div className="me-3" style={{ width: '60px', height: '90px', backgroundImage: "url('/assets/image5.png')" }}></div>
                         <div>
                             <h6 className="mb-1">Terrible Madness</h6>
                             <small className="text-uppercase" style={{ color: "#6C5DD3" }}>Thriller, Drama, Horror</small>
@@ -339,7 +339,7 @@ function CustomerReview() {
                         </div>
                     </div>
                     <div className="d-flex mb-4" >
-                        <div className="me-3" style={{ width: '60px', height: '90px', backgroundImage: "url('/image2.png')" }}></div>
+                        <div className="me-3" style={{ width: '60px', height: '90px', backgroundImage: "url('/assets/image11.png')" }}></div>
                         <div>
                             <h6 className="mb-1">Terrible Madness</h6>
                             <small className="text-uppercase" style={{ color: "#6C5DD3" }}>Thriller, Drama, Horror</small>

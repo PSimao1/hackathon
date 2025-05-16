@@ -51,7 +51,7 @@ function ChoiceBook() {
                         {" "}
                         
                         <img
-                          src="/assets/carousel.jpg"
+                          src="/assets/image10.png"
                           alt="Slide Image 1"
                           className="img-fluid rounded w-100"
                           style={{
@@ -66,7 +66,7 @@ function ChoiceBook() {
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <img
-                          src="/assets/carousel.jpg"
+                          src="/assets/image12.png"
                           alt="Slide Image 2"
                           className="img-fluid rounded w-100"
                           style={{
@@ -81,7 +81,7 @@ function ChoiceBook() {
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <img
-                          src="/assets/carousel.jpg"
+                          src="/assets/image13.png"
                           alt="Slide Image 3"
                           className="img-fluid rounded w-100"
                           style={{
@@ -96,7 +96,7 @@ function ChoiceBook() {
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <img
-                          src="/assets/carousel.jpg"
+                          src="/assets/image9.png"
                           alt="Slide Image 4"
                           className="img-fluid rounded w-100"
                           style={{
@@ -111,7 +111,7 @@ function ChoiceBook() {
                     <div>
                       <div className="px-1" style={{ width: "7rem" }}>
                         <img
-                          src="/assets/carousel.jpg"
+                          src="/assets/image8.png"
                           alt="Slide Image 5"
                           className="img-fluid rounded w-100"
                           style={{
@@ -127,7 +127,7 @@ function ChoiceBook() {
                       <div className="px-1" style={{ width: "7rem" }}>
                         <div className="px-1">
                           <img
-                            src="/assets/carousel.jpg"
+                            src="/assets/image5.png"
                             alt="Slide Image 6"
                             className="img-fluid rounded  w-100"
                             style={{
