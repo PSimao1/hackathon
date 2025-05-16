@@ -43,7 +43,7 @@ export default function CarouselSpecial() {
       <Slider {...settings}>
 
         <div class="card" style="width: 18rem;">
-          <img src="../../assets/carousel.jpg" class="card-img-top" alt="..." />
+          <img src="/assets/image8.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <div><p id="tag">BIOGRAPHY</p><p id="tag">THRILLER</p><p id="tag">HORROR</p></div>
@@ -60,7 +60,7 @@ export default function CarouselSpecial() {
 
 
         <div class="card" style="width: 18rem;">
-          <img src="../../assets/carousel.jpg" class="card-img-top" alt="..." />
+          <img src="/assets/image12.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <div><p id="tag">BIOGRAPHY</p><p id="tag">THRILLER</p><p id="tag">HORROR</p></div>
@@ -78,7 +78,7 @@ export default function CarouselSpecial() {
 
 
         <div class="card" style="width: 18rem;">
-          <img src="../../assets/carousel.jpg" class="card-img-top" alt="..." />
+          <img src="/assets/image11.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <div><p id="tag">BIOGRAPHY</p><p id="tag">THRILLER</p><p id="tag">HORROR</p></div>
