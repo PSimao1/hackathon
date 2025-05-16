@@ -1,273 +1,237 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap");
 
 .cairo {
-    font-family: 'Cairo';
+  font-family: "Cairo";
 }
 
-
 .allDir {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .activePage {
-    color: gray;
+  color: gray;
 }
 
 .dir {
-    color: #6C5DD3;
+  color: #6c5dd3;
 }
 
-.detailPage {
-    margin-left: 150px;
-    margin-right: 150px;
-}
+
+
 
 .bookCover {
-    width: 398px;
-    height: 572px;
-    background-color: #C4C4C4;
-    border-radius: 20px;
-    border-color: transparent;
-
+  width: 398px;
+  height: 572px;
+  background-color: #c4c4c4;
+  border-radius: 20px;
+  border-color: transparent;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .bookTitle {
-    font-family: 'Cairo';
-    font-weight: 900 !important;
-    font-size: 50px;
-}
-
-.rating {
-    padding-top: 25px;
-    display: flex;
+  font-family: "Cairo";
+  font-weight: 900 !important;
+  font-size: 50px;
 }
 
 .star {
-
-    height: 24px;
-    padding-right: 6px;
+  height: 24px;
+  padding-right: 6px;
 }
 
 .note {
-
-    padding-left: 15px;
-    font-weight: bold;
-    font-size: 24px;
-    margin-top: -6px;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: -6px;
 }
-
-@media screen and (min-width: 992px) and (max-width: 1635px) {
-    .bookInfo {
-        margin-left: 170px;
-    }
-
-    .authorShip {
-        margin-left: 170px;
-    }
-
-}
-
 
 .svgNotes {
-    height: 24px;
-    padding-left: 40px;
-    padding-right: 10px;
+  height: 24px;
+  padding-left: 20px;
+  padding-right: 5px;
 }
 
 .stringNotes {
-    font-size: 14px;
-    font-weight: 600;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .synopsis {
-    width: 60vw;
+  width: 100%;
+  max-width: 100%;
 }
 
 .authorImg {
-    background-color: #C4C4C4;
-    width: 50px;
-    height: 50px;
-    border-radius: 14px;
+  background-color: #c4c4c4;
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
 }
 
-.authorShip {
-    padding-top: 20px;
-    display: flex;
-}
 
 .socials {
-    width: 131px;
-    height: 38px;
-    margin-top: -10px;
-    margin-left: 10px;
-    font-size: 14px;
-    border-radius: 14px;
+  width: 100px;
+  height: 38px;
+  font-size: 12px;
+  border-radius: 14px;
+  padding: 0 5px;
 }
 
 .facebook {
-    margin-left: 100px;
-    background-color: #1E33E5;
+  background-color: #1e33e5;
 }
-
 
 .facebook:hover {
-    background-color: #2a0caf;
+  background-color: #2a0caf;
 }
 
-
 .twitter {
-    background-color: #61C3E2;
+  background-color: #61c3e2;
 }
 
 .twitter:hover {
-    background-color: #4383be;
+  background-color: #4383be;
 }
 
-
 .whatsapp {
-    background-color: #53C258;
+  background-color: #53c258;
 }
 
 .whatsapp:hover {
-    background-color: #39a15c;
+  background-color: #39a15c;
 }
 
 .email {
-    background-color: #AAAAAA;
+  background-color: #aaaaaa;
 }
-
 
 .email:hover {
-    background-color: #8f8f8f;
+  background-color: #8f8f8f;
 }
 
-.info {
-    margin-top: -10px;
-    display: flex;
+/* Informations auteur réduites */
+.authorInfo-small,
+.publisherInfo-small,
+.yearInfo-small {
+  margin-left: 10px;
 }
 
-.publisherInfo {
-
-    margin-left: 70px;
-}
-
-.yearInfo {
-
-    margin-left: 70px;
-}
-
-.authorInfo {
-
-    margin-left: 30px;
+.small-text {
+  font-size: 12px;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.freeShipping {
-    color: #6C5DD3;
-    background-color: #EBE8FE;
-    border-color: transparent;
-    width: 213px;
-    border-radius: 14px;
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: 250px;
+
+.freeShipping-small {
+  color: #6c5dd3;
+  background-color: #ebe8fe;
+  border-color: transparent;
+  width: 150px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.inStock {
-    color: #3EB760;
-    background-color: #DDF5E4;
-    border-color: transparent;
-    width: 183px;
-    border-radius: 14px;
-    font-size: 18px;
-    font-weight: bold;
+.inStock-small {
+  color: #3eb760;
+  background-color: #ddf5e4;
+  border-color: transparent;
+  width: 120px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .bar {
-    border-top: 3px dotted #AAAAAA;
-    width: 100%;
-    width: 1157px;
-}
-
-.price {
-    display: flex;
-    align-items: center;
+  border-top: 3px dotted #aaaaaa;
+  width: 100%;
 }
 
 .currentPrice {
-
-    font-size: 45px;
-    font-weight: bold;
+  font-size: 45px;
+  font-weight: bold;
 }
 
 .oldPrice {
-    margin-left: 25px;
-    font-size: 20px;
+  font-size: 20px;
+  text-decoration: line-through;
+  color: #999;
 }
 
 .discountedPrice {
-    margin-left: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: #FF754C;
-    border-radius: 14px;
-    width: 57px;
-    height: 29px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #ff754c;
+  border-radius: 14px;
+  width: 57px;
+  height: 29px;
 }
 
 .quantity-selector {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 189px;
-    height: 60px;
-    padding: 5px 10px;
-    border: 1px solid rgba(138, 43, 226, 0.2);
-    border-radius: 10px;
-    box-shadow: 0 0 4px rgba(138, 43, 226, 0.1);
-    font-family: sans-serif;
-    margin-left: 300px;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 189px;
+  height: 60px;
+  padding: 5px 10px;
+  border: 1px solid rgba(138, 43, 226, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(138, 43, 226, 0.1);
+  font-family: sans-serif;
 }
 
 .quantity-btn {
-    background: none;
-    border: none;
-    color: #7a5af5;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    padding: 0 5px;
-
+  background: none;
+  border: none;
+  color: #7a5af5;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 5px;
 }
 
 .quantity-btn:focus {
-    outline: none;
+  outline: none;
 }
 
 .quantity-number {
-    font-size: 16px;
-    font-weight: bold;
-    color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
 }
 
 .addToCart {
-    background-color: #6C5DD3;
-    width: 229px;
-    height: 60px;
-    border-radius: 14px;
-    margin-left: 30px; 
+  background-color: #6c5dd3;
+  width: 229px;
+  height: 60px;
+  border-radius: 14px;
+  border: none;
 }
 
 .Like {
-    background-color: white;
-    width: 60px;
-    height: 60px;
-    border-radius: 14px;
-    margin-left: 30px;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  border: 1px solid #eee;
 }
+
+
+.book-content {
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
