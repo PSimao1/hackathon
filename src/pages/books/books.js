@@ -1,13 +1,16 @@
+import react from "react";
+import MyNavbar from "../../components/MyNavbar/MyNavbar";
+import Book from "../../components/Book/Book";
 
 
 function Books() {
 
 
     return (
-        <div className="books">
-               <h1>Books Page</h1>
+        <div>
+            <MyNavbar />
+            <Book />
         </div>
-
     )
 }
 
