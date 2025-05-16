@@ -96,10 +96,10 @@ const Footer = () => {
         
         <Row className="copyright-row">
           <Col md={6} className="copyright-left">
-            <p>Bookoe Book Store Website © 2020 All Rights Reserved</p>
+            <p>Bookoe Book Store Website © 2025 All Rights Reserved</p>
           </Col>
           <Col md={6} className="copyright-right">
-            <p>Made with <Heart size={14} color="red" fill="red"/>by Peterdraw</p>
+            <p>Made with <Heart size={14} color="red" fill="red"/>by Simao Guendoline Sara</p>
           </Col>
         </Row>
       </Container>
