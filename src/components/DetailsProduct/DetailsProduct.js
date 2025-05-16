@@ -9,7 +9,7 @@ function DetailsProduct() {
                 <div className="col-md-8">
                     <div className="d-flex = mb-3">
                         <a href='' className="text-decoration-none text-reset"><h5 className="me-4 fw-bold">Details Product</h5></a>
-                        <a href='' className="text-decoration-none text-reset " style={{ marginLeft: '5rem' }}><h5 className="text-muted ">Customer Reviews</h5></a>
+                        <a href='./booksreviews' className="text-decoration-none text-reset " style={{ marginLeft: '5rem' }}><h5 className="text-muted ">Customer Reviews</h5></a>
                     </div>
 
                     <table className="table table-border">

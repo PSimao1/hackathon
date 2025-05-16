@@ -1,4 +1,4 @@
-import BookDetails from "../bookDetails/BookDetails";
+import BookDetails from "../booksDetails/BooksDetails";
 import CarouselSpecial from "../../components/CarouselSpecial/CarouselSpecial";
 
 function Simao() {
@@ -8,7 +8,7 @@ function Simao() {
         <div className="main">
                <h1>Simao</h1>
                 <BookDetails />
-                <CarouselSpecial />
+
         </div>
 
     )

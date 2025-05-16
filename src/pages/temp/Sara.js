@@ -11,7 +11,7 @@ import Features from "../../components/Features/Features";
 import FlashSale from "../../components/FlashSale/FlashSale";
 
 import MyNavbar from "../../components/MyNavbar/MyNavbar";
-import BookDetails from "../bookDetails/BookDetails";
+import BookDetails from "../../components/bookDetails/BookDetails";
 
 function Sara() {
     return (
